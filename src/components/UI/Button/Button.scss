@@ -1,0 +1,17 @@
+@import '../../../assets/colors.scss';
+
+.button {
+	background-color: $peach-pink;
+	color: $dark-navy;
+	cursor: pointer;
+	border: 3px transparent solid;
+	border-radius: 12px;
+	padding: 12px 30px;
+	font-size: 24px;
+	font-family: 'Krona One', sans-serif;
+	transition: border .25s;
+	&:hover {
+		border: 3px $off-white solid;
+		transition: border .25s;
+	}
+}

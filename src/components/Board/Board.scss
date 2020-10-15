@@ -1,0 +1,8 @@
+@import '../../assets/colors.scss';
+
+.board {
+	background-color: $pale-blue;
+	padding: 200px 40px 40px;
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+}

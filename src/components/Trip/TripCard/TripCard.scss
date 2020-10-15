@@ -1,0 +1,31 @@
+@import '../../../assets/colors.scss';
+
+.trip-card {
+	height: 400px;
+	border-radius: 20px;
+	box-shadow: 7px 7px 25px -5px rgba(36, 48, 94, 0.7);
+	&__photo {
+		height: 275px;
+		&-image {
+			border-top-left-radius: 20px;
+			border-top-right-radius: 20px;
+			width: 100%;
+		}
+	}
+	&__info {
+		border-bottom-left-radius: 20px;
+		border-bottom-right-radius: 20px;
+		background-color: $off-white;
+		height: 125px;
+		padding: 15px;
+		&-name {
+			padding-bottom: 12px;
+			font-size: 24px;
+		}
+		&-place,
+		&-cost {
+			font-size: 18px;
+			padding-bottom: 5px;
+		}
+	}
+}

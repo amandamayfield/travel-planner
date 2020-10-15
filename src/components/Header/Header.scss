@@ -1,0 +1,23 @@
+@import '../../assets/colors.scss';
+
+.header {
+	position: fixed;
+	width: 100%;
+	background-color: $navy;
+	color: $off-white;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 20px 30px;
+	box-shadow: 7px 7px 25px -5px rgba(36, 48, 94, 0.7);
+	&-title {
+		flex: 1 1;
+		& h1 {
+			font-size: 4rem;
+			text-align: left;
+		}
+	}
+	&-button {
+		flex: 0 1 20%;
+	}
+}
