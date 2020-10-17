@@ -10,10 +10,9 @@ const TripCard = (props) => {
 			</div>
 			<div className="trip-card__info">
 				<div className="trip-card__info-name">
-					<h3>Trip Name</h3>
+					<h3>{props.tripName}</h3>
 				</div>
-				<div className="trip-card__info-place">Place</div>
-				<div className="trip-card__info-cost">Cost</div>
+				<div className="trip-card__info-place">{props.tripPlace}</div>
 			</div>
 		</div>
 	);
